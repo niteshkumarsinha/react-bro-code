@@ -1,18 +1,18 @@
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 import Food from "./components/Food"
+import Card from "./components/card-components/Card"
+import Navbar from "./components/Navbar"
 
 function App() {
   return (
     <>
       <Header />
-      <nav>
-        <ul>
-          <li><a href="Home">Home</a></li>
-          <li><a href="About">About</a></li>
-          <li><a href="Contact">Contact</a></li>
-        </ul>
-      </nav>
+      <Navbar />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
       <hr/>
       <Food />
       <Footer />
