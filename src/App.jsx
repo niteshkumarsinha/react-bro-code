@@ -3,6 +3,7 @@ import Footer from "./components/Footer"
 import Food from "./components/Food"
 import Card from "./components/card-components/Card"
 import Navbar from "./components/Navbar"
+import Button from "./components/buttons/Button"
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Card />
       <hr/>
       <Food />
+      <Button />
       <Footer />
     </>
   )
